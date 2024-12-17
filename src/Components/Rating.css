@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Overpass", serif;
+}
+
+.rating {
+  background-color: hsl(211, 29%, 17%);
+  padding: 27px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  width: 370px;
+  text-align: left;
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: hsl(215, 14%, 23%);
+  border-radius: 50%;
+}
+h1{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+p{
+    font-size: 14px;
+    color: hsl(218, 15%, 71%);
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+.buttons button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsl(215, 14%, 23%);
+    color: hsl(218, 15%, 71%);
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttons button:hover{
+  background-color: hsl(218, 15%, 71%);
+  color: hsl(216, 12%, 8%);
+}
+.buttons button.active{
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(216, 12%, 8%);
+}
+.submit{
+    width: 100%;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+.submit:hover{
+  color: hsl(216, 12%, 8%);
+  background-color: hsl(218, 15%, 71%);
+}
+.thank-you{
+  background-color: hsl(211, 29%, 17%);
+  padding: 27px;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.rating-info{
+  margin: 30px 0;
+  width: 200px;
+  background-color:hsl(215, 14%, 23%);
+  padding: 6px 0;
+  border-radius: 30px;
+}
+.rating-info-text{
+  color: hsl(25, 97%, 53%);
+  font-size: 15px;
+}
+.thank-you h2{
+  margin-bottom: 12px;
+  font-size: 28px;
+}
+.thank-you p{
+  line-height: 21px;
+}
